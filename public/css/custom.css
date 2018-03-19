@@ -1,0 +1,40 @@
+body {
+	background: url(../img/background.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+
+form {
+	margin: 10px, 10px, 10px, 10px;
+}
+
+label {
+	font-size: 30px;
+	color : white;
+	text-shadow: 1px 1px #000000;
+}
+
+.navbar-collapse {
+  text-align:center;
+}
+
+.navbar-nav {
+    display:inline-block;
+    float:none;
+}
+
+.navbar {
+	color: white;
+	font-size: 30px;
+	text-shadow: 1px 1px #000000;
+}
+
+.statisticsheader {
+	color: white;
+	font-size: 60px;
+	text-shadow: 1px 1px #000000;
+}
+
+.ui-progressbar-value {
+	background: #3498db !important;
+}

@@ -1,0 +1,62 @@
+<html>
+<head>
+	<title>Pubg Squad Stats</title>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/jquery-ui.css">
+
+	<script type="text/javascript" src="libs/jquery-3.3.1.min.js"></script>	
+	<script type="text/javascript" src="libs/bootstrap.min.js"></script>
+	<script type="text/javascript" src="libs/jquery-ui.js"></script>
+
+	
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<script type="text/javascript" src="libs/tracker.js"></script>
+</head>
+	
+<body>
+
+  <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<nav class="navbar">
+				<p class="navbar-brand" href="#">
+				Player Unknowns Battlegrounds Squad Statistics Viewer</p>
+			</nav>
+		</div>
+	</div>
+
+	<div class="row">
+
+		<div class="col-md-4">
+		    <form>
+			    <label>Player 1</label>
+			    <input id="one" type="text" name="firstname" class="span3">
+			    <br>
+			    <label>Player 2</label>
+			    <input id="two" type="text" name="lastname" class="span3">
+			    <br>
+			    <label>Player 3</label>
+			    <input id="three" type="text" name="firstname" class="span3">
+			    <br>
+			    <label>Player 4</label>
+			    <input id="four" type="text" name="lastname" class="span3">
+			    <br>
+			    <button id="btn-stats" type="button" class="btn-lg btn-success">Get Statistics</button>
+			    <button id="btn-clear" type="button" class="btn-lg btn-danger">Clear Form</button>
+		    </form>
+		</div>
+
+		<div class="col-md-8">
+			<p class="statisticsheader">Statistics</p>
+			<hr>
+			<div class="progressbar"></div>
+			<p class="statistics"></p>
+		</div>
+
+	</div>
+</div>
+
+</body>
+
+</html>
