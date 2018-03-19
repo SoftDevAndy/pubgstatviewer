@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 	var retrieving = 0;
 
-	function getstatistics(){
+	function getStatistics(){
 		retrieving = 1;
 		loadingBar(1);
 
@@ -82,15 +82,6 @@ $(document).ready(function(){
 			alert("Please enter at least one name!");
 	}
 
-	/* Other Functions */
-
-	function clearform(){
-		$("#one").val("");
-		$("#two").val("");
-		$("#three").val("");
-		$("#four").val("");
-	}
-
 	/*	Progress Bar */
 
 	function loadingBar(flag){
@@ -127,15 +118,22 @@ $(document).ready(function(){
 	/* Click Listeners */
 
 	$("#btn-clear").click(function() {
-		clearform();
+		clearForm();
 	});
 
 	$("#btn-stats").click(function() {
 		
 		if(retrieving == 0)
-			getstatistics();
+			getStatistics();
 		else
 			alert("Already retrieving results, please wait...");
 	});
+
+	function clearForm(){
+		$("#one").val("");
+		$("#two").val("");
+		$("#three").val("");
+		$("#four").val("");
+	}
 
 });

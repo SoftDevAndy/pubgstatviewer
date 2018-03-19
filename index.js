@@ -52,9 +52,9 @@ function getResults(players, callback){
 
 		setTimeout(function(i){
 
-			getPlayer(player, function(data){
+			getPlayerStats(player, function(data){
 
-				build(data);
+				buildResults(data);
 
 				if(players.length - 1 == i)
 					return callback(results);
@@ -64,11 +64,11 @@ function getResults(players, callback){
 
 	}
 
-	function build(data){
+	function buildResults(data){
 		results += data;
 	}
 
-	function getPlayer(player, playercallback){
+	function getPlayerStats(player, playercallback){
 
 		var urlplayer = "https://api.pubgtracker.com/v2/profile/pc/" + player;
 
