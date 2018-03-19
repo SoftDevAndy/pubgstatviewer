@@ -9,6 +9,14 @@ The apikey must be aquired from  [https://pubgtracker.com/site-api](https://pubg
 
 ### Dependencies
 
+**Node*
+
+```
+"async": "^2.6.0",
+"express": "^4.16.3",
+"request": "^2.85.0",
+```
+
 **CSS**
 
 * css/bootstrap.css
