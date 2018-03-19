@@ -9,7 +9,7 @@ The apikey must be aquired from  [https://pubgtracker.com/site-api](https://pubg
 
 ### Dependencies
 
-**Node*
+**Node**
 
 ```
 "async": "^2.6.0",
