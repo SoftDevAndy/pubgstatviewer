@@ -23,7 +23,7 @@ $(document).ready(function(){
 		var three = $("#three").val();
 		var four = $("#four").val();
 
-		if(one != undefined){	
+		if(one != undefined && one != ""){	
 			count++;		
 			if(first == 0){				
 				first = 1;
@@ -34,7 +34,7 @@ $(document).ready(function(){
 				url += ("&playerone=" + one);
 		}
 
-		if(two != undefined){	
+		if(two != undefined && two != ""){	
 			count++;		
 			if(first == 0){				
 				first = 1;
@@ -45,7 +45,7 @@ $(document).ready(function(){
 				url += ("&playertwo=" + two);
 		}
 
-		if(three != undefined){			
+		if(three != undefined && three != ""){			
 			count++;
 			if(first == 0){				
 				first = 1;
@@ -56,7 +56,7 @@ $(document).ready(function(){
 				url += ("&playerthree=" + three);
 		}
 
-		if(four != undefined){		
+		if(four != undefined && four != ""){		
 			count++;	
 			if(first == 0){				
 				first = 1;
@@ -78,8 +78,10 @@ $(document).ready(function(){
 				loadingBar(0);
 			});				
 		}
-		else
+		else{
 			alert("Please enter at least one name!");
+			retrieving = 0;
+		}
 	}
 
 	/*	Progress Bar */

@@ -1,6 +1,10 @@
 # pubgstatviewer
 A statistics viewer for PUBG. Enter in your squads user names and compare them. 
 
+![Screenshot](https://puu.sh/zLtTZ/885d280203.png "Logo Title Text 1")
+
+# Will resume development when the API comes back online
+
 ## Setup
 
 A valid key must be entered into **apikey.js**

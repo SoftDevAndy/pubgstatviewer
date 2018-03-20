@@ -29,9 +29,14 @@ app.get('/stats', (req, res) => {
 	if(playerfour != undefined && playerfour != "")
 		players.push(playerfour);
 
-	const results = getResults(players, function(data){
-		res.send(data);
-	});
+	if(players.length != 0)
+	{
+		const results = getResults(players, function(data){
+			res.send(data);
+		});
+	}
+	else
+		console.log("No player data to return");
 })
 
 app.listen(3000,() => {
