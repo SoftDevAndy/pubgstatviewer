@@ -1,7 +1,7 @@
 # pubgstatviewer
 A statistics viewer for PUBG. Enter in your squads user names and compare them. 
 
-![Screenshot](https://puu.sh/zLtTZ/885d280203.png "Logo Title Text 1")
+![Screenshot](https://puu.sh/zLtTZ/885d280203.png "Screenshot")
 
 # Will resume development when the API comes back online
 
