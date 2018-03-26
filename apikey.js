@@ -1,4 +1,4 @@
-var APIKEY = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx";
+var APIKEY = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX";
 
 module.exports = {
     APIKEY
